@@ -1,0 +1,61 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: royalblue;
+}
+li,a,.cta{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+display: inline-block;
+padding: 0px 25px;
+ 
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:{
+    color: white;
+
+}
+
+
+img{
+height:250px;
+width: 200px;
+margin-left: 0px
+
+}
+
+.Myportfolio{
+    text-align: center;
+    font-size:400%;
+}
+.name{
+    text-align: center;
+    padding: 20px;
+}
+.home{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
