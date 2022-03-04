@@ -15,8 +15,9 @@ li,a,.cta{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 30px 10%;
+    float:right;
 
 }
 
@@ -26,27 +27,27 @@ header{
 .nav_links li{
 display: inline-block;
 padding: 0px 25px;
+ float: right;
  
 }
 .nav_links li a{
     transition: all 0.3s ease 0s;
 }
-.nav_links li a:{
+.nav_links li a{
     color: white;
 
 }
-
-
 img{
 height:250px;
 width: 200px;
-margin-left: 0px
+margin-left: 0px;
 
 }
 
 .Myportfolio{
-    text-align: center;
+    text-align:center;
     font-size:400%;
+    
 }
 .name{
     text-align: center;
@@ -58,4 +59,60 @@ margin-left: 0px
     align-items: center;
     padding: 30px 10%;
 
+}
+.gridlayout{
+    background-color: gray;
+    padding:100px 50px 50px;
+    display:grid;
+    grid-template-columns: 65% 35%;
+}
+.gridlayout{
+    float:right;
+    
+}
+section {
+    
+    height:300px;
+    width:400px
+}
+.container{
+    float:right;
+    padding-right: 90px;
+    color: white;   
+}
+.layout{
+    background-color: gray;
+    padding-left: 80px;
+}
+.contactme{
+    padding: 90px;
+   
+}
+.aboutme{
+    float: right;
+    color: white;
+    padding:100px 80px 50px;
+}
+.report{
+    float:right;
+    padding-top: 50px
+        
+}
+.Introduction{
+    padding:90px;
+   
+}
+.paragraph{
+    padding-top: 10px
+        padd
+}
+.objective{
+    padding-top: 20px
+}
+.obejctiveofassignment{
+    padding-top: 10px
+}
+.experience{
+    padding-top: 20px
+       
 }
