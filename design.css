@@ -133,12 +133,14 @@ body{
     background-image:url(pic1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height:1300px;
+    height:1500px;
+    width: 950px;
 }
 .blog{
     display:grid;
     grid-template-columns:2fr 1fr;
     padding-left:80px;
+    color:whitesmoke;
 
 }
 .gender{
