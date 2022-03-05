@@ -32,7 +32,7 @@ nav{
 .nav_links li{
 display: inline-block;
 padding: 0px 25px;
- float: right;
+ float:left;
  
 }
 .nav_links li a{
@@ -52,6 +52,7 @@ margin-left: 0px;
 
 .Myportfolio{
     text-align:center;
+    font-size:250%
    
    
     
@@ -59,6 +60,7 @@ margin-left: 0px;
 .name{
     text-align: center;
     padding: 20px;
+    font-size:120%;
 }
 .home{
       display: flex;
@@ -71,16 +73,19 @@ margin-left: 0px;
 
 section {
     
-   margin-top: 80%
+   margin-top: 80%;
    margin-left:10%;
 }
 .container{
     float:right;
     padding-right: 90px;
-    color: white;   
+    padding-top:450px;
+    color:whitesmoke;
+    
+    
 }
 .layout{
-    background-color: gray;
+   
     padding-left: 80px;
 }
 .contactme{
@@ -98,7 +103,7 @@ section {
         
 }
 .Introduction{
-    padding:50px;
+    padding:90px;
    
 }
 .paragraph{
@@ -113,13 +118,14 @@ section {
 }
 .experience{
     padding-top: 20px
+    
 }
 .assignment{
     padding-top: 10px;
+    
 }
-.validation{
-    padding-top:20px;
-}
+
+
 .obejctive p{
     background-color:white;
 }
@@ -127,15 +133,24 @@ body{
     background-image:url(pic1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height:1300px;
 }
 .blog{
     display:grid;
     grid-template-columns:2fr 1fr;
+    padding-left:80px;
 
 }
 .gender{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     margin-left: 5%;
+    text-align:center;
 
+}
+.validation{
+    padding-left:200px;
+}
+.conlusion{
+    padding-top:20px;
 }
