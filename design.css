@@ -17,6 +17,7 @@ header{
     justify-content: space-between;
     align-items:center;
     float:right;
+    /*to put the text in right side*/
 
 }
 nav{
@@ -35,10 +36,7 @@ padding: 0px 25px;
  float:left;
  
 }
-.nav_links li a{
-    transition: all 0.3s ease 0s;
 
-}
 .nav_links li a{
     color: black;
 
@@ -46,6 +44,7 @@ padding: 0px 25px;
 img{
 height:250px;
 width: 200px;
+ /*to adjust the iamge at proper size*/
 margin-left: 0px;
 
 }
@@ -62,14 +61,6 @@ margin-left: 0px;
     padding: 20px;
     font-size:120%;
 }
-.home{
-      display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-}
-
-    
 
 section {
     
@@ -80,13 +71,16 @@ section {
     float:right;
     padding-right: 90px;
     padding-top:450px;
+    /*to maintain gap in top of the page*/
     color:whitesmoke;
     
     
 }
-.layout{
+.gridlayout{
    
     padding-left: 80px;
+     /*to maintain gap at left side*/
+
 }
 .contactme{
     padding: 90px;
@@ -94,7 +88,8 @@ section {
 }
 .aboutme{
     float: right;
-    color: white;
+    /*to display text in right side*/
+    color:black;
     padding:100px 80px 50px;
 }
 .report{
@@ -131,21 +126,26 @@ section {
 }
 body{
     background-image:url(pic1.jpg);
+    /*to add background image*/
     background-size: cover;
     background-repeat: no-repeat;
-    height:1500px;
+    height:1700px;
     width: 950px;
+    
 }
 .blog{
     display:grid;
     grid-template-columns:2fr 1fr;
     padding-left:80px;
-    color:whitesmoke;
+    color:gold;
+    font-weight: 900;
+   
 
 }
 .gender{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    /*to show the items in columns*/
     margin-left: 5%;
     text-align:center;
 
